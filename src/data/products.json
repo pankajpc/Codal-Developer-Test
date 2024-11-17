@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "brand": "Mobil",
+    "name": "DTE 10 Excel 100",
+    "sku": "130833",
+    "price": 23.33,
+    "multipleSizes": true,
+    "image": "https://placehold.co/600x400?text=Mobil+DTE+10"
+  },
+  {
+    "id": 2,
+    "brand": "Old World",
+    "name": "5W-30 Motor Oil",
+    "sku": "140922",
+    "price": 19.99,
+    "multipleSizes": false,
+    "image": "https://placehold.co/600x400?text=Old+World+5W-30"
+  },
+  {
+    "id": 3,
+    "brand": "Peak",
+    "name": "10W-40 Motor Oil",
+    "sku": "150111",
+    "price": 21.5,
+    "multipleSizes": true,
+    "image": "https://placehold.co/600x400?text=Peak+10W-40"
+  },
+  {
+    "id": 4,
+    "brand": "Mobil",
+    "name": "DTE 20 Ultra",
+    "sku": "160244",
+    "price": 25.75,
+    "multipleSizes": true,
+    "image": "https://placehold.co/600x400?text=Mobil+DTE+20"
+  },
+  {
+    "id": 5,
+    "brand": "Old World",
+    "name": "10W-30 Motor Oil",
+    "sku": "170355",
+    "price": 18.99,
+    "multipleSizes": false,
+    "image": "https://placehold.co/600x400?text=Old+World+10W-30"
+  },
+  {
+    "id": 6,
+    "brand": "Peak",
+    "name": "5W-20 Motor Oil",
+    "sku": "180466",
+    "price": 20.25,
+    "multipleSizes": true,
+    "image": "https://placehold.co/600x400?text=Peak+5W-20"
+  },
+  {
+    "id": 7,
+    "brand": "Castrol",
+    "name": "EDGE 0W-20 Advanced Full Synthetic",
+    "sku": "190577",
+    "price": 27.99,
+    "multipleSizes": true,
+    "image": "https://placehold.co/600x400?text=Castrol+EDGE"
+  },
+  {
+    "id": 8,
+    "brand": "Valvoline",
+    "name": "High Mileage with MaxLife Technology",
+    "sku": "200688",
+    "price": 22.5,
+    "multipleSizes": false,
+    "image": "https://placehold.co/600x400?text=Valvoline+High+Mileage"
+  },
+  {
+    "id": 9,
+    "brand": "Shell",
+    "name": "Rotella T6 Full Synthetic",
+    "sku": "210799",
+    "price": 29.99,
+    "multipleSizes": true,
+    "image": "https://placehold.co/600x400?text=Shell+Rotella+T6"
+  },
+  {
+    "id": 10,
+    "brand": "Pennzoil",
+    "name": "Platinum Full Synthetic",
+    "sku": "220800",
+    "price": 26.75,
+    "multipleSizes": true,
+    "image": "https://placehold.co/600x400?text=Pennzoil+Platinum"
+  },
+  {
+    "id": 11,
+    "brand": "Mobil",
+    "name": "1 Extended Performance",
+    "sku": "230911",
+    "price": 28.5,
+    "multipleSizes": false,
+    "image": "https://placehold.co/600x400?text=Mobil+1+Extended"
+  },
+  {
+    "id": 12,
+    "brand": "Royal Purple",
+    "name": "High Performance Synthetic",
+    "sku": "241022",
+    "price": 32.99,
+    "multipleSizes": true,
+    "image": "https://placehold.co/600x400?text=Royal+Purple"
+  },
+  {
+    "id": 13,
+    "brand": "Liqui Moly",
+    "name": "Leichtlauf High Tech",
+    "sku": "251133",
+    "price": 31.5,
+    "multipleSizes": false,
+    "image": "https://placehold.co/600x400?text=Liqui+Moly"
+  },
+  {
+    "id": 14,
+    "brand": "Amsoil",
+    "name": "Signature Series Synthetic",
+    "sku": "261244",
+    "price": 35.99,
+    "multipleSizes": true,
+    "image": "https://placehold.co/600x400?text=Amsoil+Signature"
+  },
+  {
+    "id": 15,
+    "brand": "Motul",
+    "name": "8100 X-cess Gen2",
+    "sku": "271355",
+    "price": 33.75,
+    "multipleSizes": true,
+    "image": "https://placehold.co/600x400?text=Motul+8100"
+  }
+]
