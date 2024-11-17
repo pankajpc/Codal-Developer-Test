@@ -74,7 +74,7 @@ Follow these steps to set up the project locally:
  * [Lucide React](https://lucide.dev/guide/packages/lucide-react) - Icon package
 
 ### Demo 
-* [Demo Link]()
+* [Demo Link](https://codal-product-listing.vercel.app/)
 
 ### Contact
 Have questions or feedback? Feel free to reach out:

@@ -89,7 +89,7 @@ export default function Header() {
           </nav>
         )}
         <nav className="border-t border-gray-800">
-          <ul className="flex space-x-8 py-3 text-sm">
+          <ul className="flex space-x-8 py-3 text-sm max-w-3xl overflow-auto">
             {secondaryNavLinks.map((link) => (
               <li key={link.label}>
                 <Link href={link.href} className="hover:text-gray-300">

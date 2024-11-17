@@ -68,7 +68,9 @@ export default function ProductListing({ filters = { brand: [] } }) {
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
   if (loading) {
-    return <div className="text-[#222222] text-center">Loading products...</div>;
+    return (
+      <div className="text-[#222222] text-center">Loading products...</div>
+    );
   }
 
   return (
@@ -110,20 +112,20 @@ export default function ProductListing({ filters = { brand: [] } }) {
         </p>
 
         <div>
-          <div className="flex justify-between items-center mb-6">
-            <div className="text-sm text-[#9CA3AF]">
+          <div className="flex flex-col space-y-4 mb-6 sm:flex-row sm:justify-between sm:items-center sm:space-y-0">
+            <div className="text-sm text-[#9CA3AF] order-2 sm:order-1">
               Showing {indexOfFirstProduct + 1} -{" "}
               {Math.min(indexOfLastProduct, displayProducts.length)} of{" "}
               {displayProducts.length}
             </div>
-            <div className="flex items-center space-x-4">
+            <div className="flex flex-col space-y-4 sm:flex-row sm:items-center sm:space-y-0 sm:space-x-4 order-1 sm:order-2">
               <div className="flex items-center space-x-2">
                 <span className="text-sm text-[#9CA3AF]">Sort By:</span>
-                <div className="relative">
+                <div className="relative flex-grow sm:flex-grow-0">
                   <select
                     value={sortBy}
                     onChange={(e) => setSortBy(e.target.value)}
-                    className="appearance-none bg-[#1F2937] border border-[#4B5563] text-white py-2 px-4 pr-8 rounded leading-tight focus:outline-none focus:border-[#9CA3AF] text-sm"
+                    className="w-full sm:w-auto appearance-none bg-[#1F2937] border border-[#4B5563] text-white py-2 px-4 pr-8 rounded leading-tight focus:outline-none focus:border-[#9CA3AF] text-sm"
                   >
                     <option value="price-high-to-low">
                       Price: High to Low
@@ -137,11 +139,13 @@ export default function ProductListing({ filters = { brand: [] } }) {
                   </div>
                 </div>
               </div>
-              <Pagination
-                currentPage={currentPage}
-                totalPages={totalPages}
-                paginate={paginate}
-              />
+              <div className="w-full sm:w-auto">
+                <Pagination
+                  currentPage={currentPage}
+                  totalPages={totalPages}
+                  paginate={paginate}
+                />
+              </div>
             </div>
           </div>
 
