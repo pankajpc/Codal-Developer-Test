@@ -2,7 +2,7 @@ const { ChevronLeft, ChevronRight } = require("lucide-react");
 
 function Pagination({ currentPage, totalPages, paginate }) {
   return (
-    <div className="flex items-center space-x-2">
+    <div className="flex items-center space-x-2 justify-center my-4">
       <button
         onClick={() => paginate(currentPage - 1)}
         disabled={currentPage === 1}

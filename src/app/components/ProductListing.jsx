@@ -113,7 +113,7 @@ export default function ProductListing({ filters = { brand: [] } }) {
 
         <div>
           <div className="flex flex-col space-y-4 mb-6 sm:flex-row sm:justify-between sm:items-center sm:space-y-0">
-            <div className="text-sm text-[#9CA3AF] order-2 sm:order-1">
+            <div className="text-sm text-[#9CA3AF] order-2 sm:order-1 text-center">
               Showing {indexOfFirstProduct + 1} -{" "}
               {Math.min(indexOfLastProduct, displayProducts.length)} of{" "}
               {displayProducts.length}
