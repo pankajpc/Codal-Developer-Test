@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My Next.js Project
+
+A modern web application built with Next.js, and Tailwind CSS. This project demonstrates server-side rendering (SSR), static site generation (SSG), API routes, and more.
+
+## Features
+
+- ⚡️ Server-side rendering (SSR)
+- 🌐 Static site generation (SSG)
+- 📡 API routes for dynamic data handling
+- 🎨 Tailwind CSS for modern styling
+- 🔒 Authentication using [Your Auth Method]
+- 🛠 Optimized performance and SEO
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+Make sure you have the following installed:
+- Node.js (>= 14.0.0)
+- npm (or Yarn)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Installation
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Follow these steps to set up the project locally:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/pankajpc/Codal-Developer-Test.git
+2. **Navigate to the project directory:**
+     ```bash
+     cd Codal-Developer-Test
+3. **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    yarn install
+4. **Run the development server:**
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+5. **Open your browser:**
+    Go to http://localhost:3000 to view the application.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+### Folder Structure
 
-To learn more about Next.js, take a look at the following resources:
+    
+    ├── components/         # Reusable UI components
+    ├── pages/              # Next.js pages (routes)
+    │   ├── api/            # API routes
+    │   ├── index.js        # Homepage
+    ├── public/             # Static assets (images, etc.)
+    ├── styles/             # Global and component-specific styles
+    ├── .env.local          # Environment variables (not in repo)
+    ├── next.config.js      # Next.js configuration
+    ├── package.json        # Project dependencies and scripts
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Scripts
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Development server: Start the development server.**
+    ```bash
+    npm run dev
+2. **Production build: Create a production build of the app.**
+    ```bash
+    npm run build
+3. **Start production server: Run the production server.**
+    ```bash
+    npm start
 
-## Deploy on Vercel
+### Technologies Used
+   This project was built with the following technologies:
+ * [Next.js](https://nextjs.org/) - Framework for React applications
+ * [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+ * [Lucide React](https://lucide.dev/guide/packages/lucide-react) - Icon package
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Demo 
+* [Demo Link]()
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Contact
+Have questions or feedback? Feel free to reach out:
+
+* Email: pankajchotaliya.pc@gmail.com
+* GitHub: https://github.com/pankajpc
+
+
+
