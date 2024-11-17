@@ -6,7 +6,7 @@ function Pagination({ currentPage, totalPages, paginate }) {
       <button
         onClick={() => paginate(currentPage - 1)}
         disabled={currentPage === 1}
-        className="p-1 text-[#9CA3AF] disabled:opacity-50 hover:text-white"
+        className="p-1 text-[#9CA3AF] disabled:opacity-50 hover:text-[#222222]"
         aria-label="Previous Page"
       >
         <ChevronLeft className="h-4 w-4" />
@@ -17,7 +17,7 @@ function Pagination({ currentPage, totalPages, paginate }) {
       <button
         onClick={() => paginate(currentPage + 1)}
         disabled={currentPage === totalPages}
-        className="p-1 text-[#9CA3AF] disabled:opacity-50 hover:text-white"
+        className="p-1 text-[#9CA3AF] disabled:opacity-50 hover:text-[#222222]"
         aria-label="Next Page"
       >
         <ChevronRight className="h-4 w-4" />
